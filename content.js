@@ -37,7 +37,14 @@ window.addEventListener("click", function(event){
     }else{
         //never reach
     }
+})
+
+window.addEventListener("keydown", function(event) {
+    if (event.key === "j" || event.key === "n" || event.key === " ") {
+        skip();
+    }
 });
+
 var i=1;
 //skip function
 function skip(){
