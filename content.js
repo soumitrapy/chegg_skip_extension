@@ -40,11 +40,10 @@ window.addEventListener("click", function(event){
 })
 
 window.addEventListener("keydown", function(event) {
-    if (event.key === "j" || event.key === "n" || event.key === " ") {
+    if (event.key === "n" || event.key === " ") {
         skip();
     }
 });
-
 var i=1;
 //skip function
 function skip(){
@@ -68,8 +67,6 @@ function skip(){
             },350);
 		}
 }
-
-
 setTimeout(function(){
 	if(document.getElementsByClassName(skipClassName)[0]==null)
 	{
@@ -79,8 +76,8 @@ setTimeout(function(){
 	else if(i==1)
 	{
 		i=0;
-		// var sound = new Audio;
-		// sound.src = "https://assets.mixkit.co/sfx/download/mixkit-arcade-retro-game-over-213.wav";
-		// sound.play();
+		var sound = new Audio;
+		sound.src = "https://assets.mixkit.co/sfx/download/mixkit-arcade-retro-game-over-213.wav";
+		sound.play();
 	}
-},15000);
+},45000);
