@@ -18,4 +18,4 @@
 * Clone this repository or download the zip file from the code tab and unzip it.
 *  Follow this instructions: [Loading an unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
 
-A lot of things in this repository was copied from the [Dalchandra's](https://github.com/dalchandra) [repository Chegg_Skip_Entension](https://github.com/dalchandra/Chegg_Skip_Extension). Thanks Dalchandra!
+A lot of things in this repository was copied from the [Dalchandra's](https://github.com/dalchandra) repository [Chegg_Skip_Entension](https://github.com/dalchandra/Chegg_Skip_Extension). Thanks Dalchandra!
