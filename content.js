@@ -76,7 +76,7 @@ setTimeout(function(){
 	else if(i==1)
 	{
 		i=0;
-		var sound = new Audio;
+		var sound = new Audio();
 		sound.src = "https://assets.mixkit.co/sfx/download/mixkit-arcade-retro-game-over-213.wav";
 		sound.play();
 	}
